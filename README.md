@@ -31,8 +31,8 @@ On progress
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/ROPierre)
+- Live Site URL: [Github Pages](https://ropierre.github.io/Front-end_mentor_01/)
 - Challenge: [Front-end Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 ## My process
@@ -59,7 +59,7 @@ On progress
 
 ## Author
 
-- Website - [Rafael O. Pierre](https://github.com/ROPierre/Front-end_mentor_01)
+- Website - [Rafael O. Pierre](https://github.com/ROPierre/)
 - Frontend Mentor - [@ROPierre](https://www.frontendmentor.io/profile/ROPierre)
 
 ## Acknowledgments
