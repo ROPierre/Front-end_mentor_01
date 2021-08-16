@@ -13,13 +13,13 @@ html{
 }
 
 body{
-    background: var(--primary-color) url(/images/pattern-background-mobile.svg) no-repeat;
+    background: var(--primary-color) url("/images/pattern-background-mobile.svg") no-repeat;
     background-size: 200vh; 
 }   
 
 @media (min-width: 765px){
     body{
-        background-image: url(/images/pattern-background-desktop.svg);
+        background-image: url("/images/pattern-background-desktop.svg");
         background-size: cover;
     }
 }
