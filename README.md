@@ -33,7 +33,7 @@ On progress
 
 - Solution URL: [Github](https://your-solution-url.com)
 - Live Site URL: [Github Pages](https://your-live-site-url.com)
-- Challenge: [Front-end Mentor] (https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+- Challenge: [Front-end Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 ## My process
 
