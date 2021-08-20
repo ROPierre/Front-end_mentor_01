@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
+/* 
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+
 :root{
     --primary-color: hsl(225, 100%, 94%);
     --bright-color: hsl(245, 75%, 52%);
+    --hover-color: hsl(224, 23%, 55%);
     --font-bold: 700;
     --font-bolder: 900;
+    --shadow: 0px 20px 24px 0px #C0CAE5;
 }
 
 html{
@@ -24,7 +36,7 @@ body{
 main{
     width: 100vw;
     height: 100vh;
-    padding: 0 10px 0 10;
+    /* padding: 0 10px 0 10; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -35,7 +47,7 @@ main{
     min-height: 60vh;
     background-color: white;
     border-radius: 6%;
-    box-shadow: 0px 20px 24px 0px #C0CAE5;
+    box-shadow: var(--shadow);
 }
 
 .card-hero{
@@ -44,6 +56,7 @@ main{
     -webkit-border-radius: 18px 18px 0 0;
     border-radius: 18px 18px 0 0;
 }
+
 .card-hero img{
     width: 100%;
 }
@@ -52,7 +65,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px
+    padding: 1.4em
 }
 
 .card-title h3{
@@ -65,13 +78,52 @@ main{
 }
 
 .card-order-plan{
-    margin-top: 10px;
     width: 100%;
     min-height: 50px;
+    margin: 0.7em 0.7em 1.5em 0.7em;
+    padding: 1em 0;
     background-color: hsl(225, 100%, 98%);
-    border-radius: 6px;
+    border-radius: 6%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.order-plan-text{
+    align-self: center;
+}
+    .order-plan-text p{
+        margin: 0;
+    }
+    .order-plan-text p:first-child{
+        font-weight: var(--font-bold);
+    }
+    .order-plan-text p.order-plan-pricing{
+        padding-top: 0.3em;
+        color: hsl(224, 23%, 55%);
+        font-size: 0.83em;
+    }
+
+.order-plan-link{
+    align-self: center;
+}
+    .order-plan-link a{
+        color: var(--bright-color);
+        font-weight: var(--font-bolder);
+    }
+        .order-plan-link a:hover{
+            color: var(--hover-color);
+        }
+
+
+.confirm-button{
+    width: 100%;
+    background-color: var(--bright-color);
+    padding: 1em;
+    border-radius: 6px;
+    border: transparent;
+    color: white;
+    font-weight: var(--font-bolder);
+    box-shadow: var(--shadow);
 }
 
 @media (min-width: 765px){
