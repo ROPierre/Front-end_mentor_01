@@ -105,6 +105,7 @@ main{
 
 .order-plan-link{
     align-self: center;
+    font-size: 0.83em;
 }
     .order-plan-link a{
         color: var(--bright-color);
@@ -115,6 +116,7 @@ main{
         }
 
 
+
 .confirm-button{
     width: 100%;
     background-color: var(--bright-color);
@@ -123,12 +125,23 @@ main{
     border: transparent;
     color: white;
     font-weight: var(--font-bolder);
-    box-shadow: var(--shadow);
+    box-shadow: 0px 1em 1.5em 0px #C0CAE5;
+}
+
+.cancel-order{
+    width: 100%;
+    margin: 1.4em 0 0.7em 0;
+    color: var(--hover-color);
+    font-size: 0.8em;
+    font-weight: var(--font-bolder);
+    text-align: center;
+    text-decoration: none;
+    display: block;
 }
 
 @media (min-width: 765px){
     body{
-        background-image: url("/images/pattern-background-desktop.svg");
+        background-image: url("images/pattern-background-desktop.svg");
         background-size: contain;
     }
 
@@ -139,7 +152,7 @@ main{
 
 @media (min-width: 1365px){
     .card{
-        width: 20vw;
+        width: 25vw;
     }
 }
 
