@@ -89,6 +89,7 @@ main{
 }
 
 .order-plan-text{
+    margin-left: -1em;
     align-self: center;
 }
     .order-plan-text p{
@@ -115,8 +116,6 @@ main{
             color: var(--hover-color);
         }
 
-
-
 .confirm-button{
     width: 100%;
     background-color: var(--bright-color);
@@ -126,6 +125,7 @@ main{
     color: white;
     font-weight: var(--font-bolder);
     box-shadow: 0px 1em 1.5em 0px #C0CAE5;
+    cursor: pointer;
 }
 
 .cancel-order{
@@ -138,6 +138,9 @@ main{
     text-decoration: none;
     display: block;
 }
+    .cancel-order:hover{
+        color: black;
+    }
 
 @media (min-width: 765px){
     body{
@@ -148,11 +151,20 @@ main{
     .card{
         width: 40vw;
     }
+
+    .confirm-button:active{
+        color: black;
+        background-color: hsl(225, 100%, 94%);
+    }
 }
 
 @media (min-width: 1365px){
     .card{
         width: 25vw;
+    }
+    
+    .order-plan-text{
+        margin-left: -2em;
     }
 }
 

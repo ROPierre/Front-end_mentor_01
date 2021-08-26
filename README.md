@@ -6,15 +6,12 @@ As an oportunity to improve, I've decide to do some challeges from Front-end Men
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,10 +21,6 @@ Users should be able to:
 
 - See hover states for interactive elements
 - See how I did the challenge
-
-### Screenshot
-
-On progress
 
 ### Links
 
@@ -48,20 +41,15 @@ For the first one I am doing it with only the basics from HTML and CSS using fle
 
 ### What I learned
 
-On progress
+I tried to apply some concepts that I usually don't use daily, as variables on my CSS file. I tried to use Classname and Ids more friendly and used flexbox to organize my card. 
 
-### Continued development
-
-On progress
+Any of this was a surprise, but I realized that doing a design or component without the specifications or the document is kinda hard.
 
 ### Useful resources
 
+To help me on this test, I used W3Schools to review some concepts, it is easy to find something with short and precise explanations about what I was looking for.
 
 ## Author
 
 - Website - [Rafael O. Pierre](https://github.com/ROPierre/)
 - Frontend Mentor - [@ROPierre](https://www.frontendmentor.io/profile/ROPierre)
-
-## Acknowledgments
-
-On Progress
